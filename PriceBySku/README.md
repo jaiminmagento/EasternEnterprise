@@ -38,6 +38,8 @@ $data = [
             ['sku' => '24-MG05', 'price' => '89.00']
         ];
 ```
+Next API detail as below
+
 ```php
 endpoint: http://baseUrl/rest/V1/easternenterprise-pricebysku/productprice/24-WG03
 Header : Content-Type => application/json 
