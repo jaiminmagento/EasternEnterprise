@@ -22,8 +22,8 @@ Body param: {
 }
 ```
 <img src="https://raw.githubusercontent.com/jaiminmagento/EasternEnterprise/main/PriceBySku/screenshot/api1.png" />
-- In response you will get token that token you need to change in PriceBySku/Plugin/Magento/Catalog/Model/Product.php on line no 32.
-- After token changed in script you can access another created API which will give price by sending SKU for prepring API I used datapatch and included for some Sku's Price and here I am listing the array which will be added in magento table named `easternenterprise_pricebysku_pricebysku`
+* In response you will get token that token you need to change in PriceBySku/Plugin/Magento/Catalog/Model/Product.php on line no 32.
+* After token changed in script you can access another created API which will give price by sending SKU for prepring API I used datapatch and included for some Sku's Price and here I am listing the array which will be added in magento table named `easternenterprise_pricebysku_pricebysku`
 Sample Array for `Watches` Category as per Magento Sample Data.
 
 ```
