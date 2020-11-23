@@ -24,6 +24,7 @@ Body param: {
 In response you will get token that token you need to change in PriceBySku/Plugin/Magento/Catalog/Model/Product.php on line no 32.
 After token changed in script you can access another created API which will give price by sending SKU for prepring API I used datapatch and included for some Sku's Price and here I am listing the array which will be added in magento table named `easternenterprise_pricebysku_pricebysku`
 Sample Array for `Watches` Category as per Magento Sample Data.
+```php
 $data = [
             ['sku' => '24-WG02', 'price' => '82.00'],
             ['sku' => '24-WG03', 'price' => '92.00'],
@@ -35,6 +36,7 @@ $data = [
             ['sku' => '24-MG04', 'price' => '88.00'],
             ['sku' => '24-MG05', 'price' => '89.00']
         ];
+```
 endpoint: http://baseUrl/rest/V1/easternenterprise-pricebysku/productprice/24-WG03
 Header : Content-Type => application/json 
 Authorization: bearer Token
