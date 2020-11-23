@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="EasternEnterprise\PriceBySku\Api\PriceBySkuRepositoryInterface" type="EasternEnterprise\PriceBySku\Model\PriceBySkuRepository"/>
+	<preference for="EasternEnterprise\PriceBySku\Api\Data\PriceBySkuInterface" type="EasternEnterprise\PriceBySku\Model\Data\PriceBySku"/>
+	<preference for="EasternEnterprise\PriceBySku\Api\Data\PriceBySkuSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+	<type name="Magento\Catalog\Model\Product">
+		<plugin disabled="false" name="EasternEnterprise_PriceBySku_Plugin_Magento_Catalog_Model_Product" sortOrder="10" type="EasternEnterprise\PriceBySku\Plugin\Magento\Catalog\Model\Product"/>
+	</type>
+	<preference for="EasternEnterprise\PriceBySku\Api\ProductPriceManagementInterface" type="EasternEnterprise\PriceBySku\Model\ProductPriceManagement"/>
+</config>

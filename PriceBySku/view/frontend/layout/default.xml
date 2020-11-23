@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="before.body.end">
+            <block name="lazyload.preload.config"
+                   class="EasternEnterprise\PriceBySku\Block\Preload"
+                   template="EasternEnterprise_PriceBySku::preload.phtml">
+                <arguments>
+                    <argument name="preload_elements" xsi:type="array">
+                        <item name="header_images" xsi:type="string">header .lazyload</item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
