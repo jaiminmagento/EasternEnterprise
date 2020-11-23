@@ -70,6 +70,9 @@ for e.g.
         * Cart thumbnails
         * Wishlist
 
+## Assignment 2
+please check below server Architecture screenshot
+<img src="https://raw.githubusercontent.com/jaiminmagento/EasternEnterprise/main/PriceBySku/screenshot/Server_Architecture.png" />
 ## Installation
 \* = in production please use the `--keep-generated` option
 
